@@ -53,8 +53,6 @@ public class TaskManager {
 
             printOptions(OPTIONS);
         }
-
-
     }
 
     public static int getTheNumber() {
@@ -110,7 +108,6 @@ public class TaskManager {
         tasks[tasks.length - 1][1] = dueDate;
         tasks[tasks.length - 1][2] = isImportant;
     }
-
 
     public static String[][] loadDataToTab(String fileName) {
         Path dir = Paths.get(fileName);
